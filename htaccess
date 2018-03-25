@@ -1,0 +1,26 @@
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+ErrorDocument 404 "Forbidden"
+
+RewriteEngine On
+RewriteBase /
+
+#### PERSISTENT CONTENT ####
+DirectoryIndex index.php index.cgi index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ portfolio/$1 [QSA,L]
+
+# Disable Directory Listings in this Directory and Subdirectories
+# This will hide the files from the public unless they know direct URLs
+Options -Indexes
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^lygialab.com [NC]
+RewriteRule ^(.*)$ https://www.lygialab.com/$1 [R=301,L]
+
+#Ensure we are using HTTPS version of the site
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

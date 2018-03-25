@@ -1,0 +1,237 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	cursor: pointer;
+}
+
+a,
+a:visited,
+a:link {
+	color: #D1D1D1;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+body {
+	position: relative;
+    background-color: #595959;
+	color: #D1D1D1;
+	font: 300 16px 'Lato', sans-serif;
+	margin: 0;
+	min-height: 100%;
+	text-shadow: 0 1px 0 #292929;
+    width: 100%;
+}
+
+main {
+	margin: 0 auto;
+	text-align: center;
+	padding: 180px 130px 0;
+}
+
+.btn {
+  	border-radius: 0;
+  	font-weight: 300;
+	text-transform: uppercase;
+  	white-space: normal; 
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.btn-lg {
+	font-size: 16px;
+}
+
+.btn_outline {
+	background-color: transparent;
+	background-image: none;
+	border-color: #D1D1D1;
+	color: #D1D1D1;
+	filter: drop-shadow(0px 1px 0px #292929);
+	margin-top: 76px;
+}
+
+.btn_outline:hover {
+	border-color: #FFFFFF;
+}
+
+
+/***** UNDER CONSTRUCTION BANNER ******/
+
+#wb_element_under-construction {
+	position: fixed;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 150px solid #999999;
+	filter: drop-shadow(-2px 1px 5px #292929);
+	right: -150px;
+	top: 0;
+	width: 0;
+	z-index: 1000;
+}
+
+#wb_stl_under-construction {
+	position: fixed;
+	color: #595959;
+	font: 900 14px 'Lato', sans-serif;
+	text-align: center;
+	text-shadow: 0 1px 0 #D1D1D1;
+	text-transform: uppercase;
+			transform: scale(1) rotate(45deg) translateX(-155px) translateY(-15px);
+	   -moz-transform: scale(1) rotate(45deg) translateX(-155px) translateY(-15px);
+	-webkit-transform: scale(1) rotate(45deg) translateX(-155px) translateY(-15px);
+		 -o-transform: scale(1) rotate(45deg) translateX(-155px) translateY(-15px);
+		-ms-transform: scale(1) rotate(45deg) translateX(-155px) translateY(-15px);
+	z-index: 1000;
+}
+
+/**************************************/
+
+
+/**************** LOGO ****************/
+
+.wb_element_logo {
+	position: absolute;
+    border-bottom: 14px solid transparent;
+    border-left: 32px solid #999999;
+    border-right: 32px solid #999999;
+    border-top: 100px solid #999999;
+    filter: drop-shadow(2px 3px 0px #292929);
+    left: 130px;
+    top: -60px;
+    width: 0;
+    z-index: 1000;
+}
+
+.wb_element_logo abbr {
+	position: relative;
+    font: 700 22px 'Dancing Script', cursive;
+	left: -19px;
+	top: -10px;
+	z-index: 1000;
+}
+
+/**************************************/
+
+
+/************** CONTAINER *************/
+
+.wb_element_instance li {
+	display: inline-block;
+	margin: 0 60px;
+}
+
+.wb_stl_instance {
+	padding-top: 20px;
+	vertical-align: middle;
+}
+
+/*
+.icon {
+	border: 1px solid black;
+	height: 70px;
+	width: 70px;
+}
+
+.icon h1 {
+	margin: 13px 3px 0 0;
+}
+*/
+
+/**************************************/
+
+
+/*********** DESIGNER PHOTO ***********/
+
+.wb_element_designer-photo {
+	position: absolute;
+	background: url(../img/foto-lygia.png) bottom right no-repeat;
+    background-size: 252px;
+	bottom: 100px;
+    display: block;
+    height: 427px;
+	right: 0;
+    text-indent: -9999px;
+    width: 252px;
+}
+
+blockquote {
+	margin: 0;
+}
+
+blockquote p:first-child {
+	margin: 0 0 20px;
+}
+
+.wb_stl_designer-quote {
+	position: absolute;
+	bottom: 130px;
+	display: inline;
+	filter: drop-shadow(0px 1px 0px #292929);
+	float: right;
+	font-size: 18px;
+	text-align: right;
+	white-space: normal;
+}
+
+.wb_stl_designer-name {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.wb_stl_designer-title {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+/**************************************/
+
+
+/*************** FOOTER ***************/
+
+footer {
+	position: absolute;
+	background-color: #999999;
+	border-top: 2px solid #292929;
+	bottom: 0;
+	height: 100px;
+	padding: 10px 130px 0;
+	width: 100%;
+}
+
+.wb_stl_footer {
+	float: left;
+	background-image: url(../img/copyright.svg);
+	background-size: 172px;
+	display: block;
+	filter: drop-shadow(0px 1px 0px #292929);
+	height: 46px;
+	text-indent: -9999px;
+	width: 172px;
+}
+
+.wb_element_social {
+	float: right;
+}
+
+.wb_element_social li {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+/**************************************/

@@ -1,0 +1,125 @@
+
+
+/********** Extra-small/ Small Devices (.col/ .col-sm) **********/
+
+@media (max-width: 640px) {
+	.btn_outline {
+		margin-bottom: 471px;	
+	}
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+	.btn_outline {
+		margin-bottom: 405px;	
+	}
+}
+
+@media (max-width: 767px) {
+	.wb_element_logo {
+	    left: 0;
+	}
+	.wb_element_instance li {
+		margin-bottom: 40px;
+	}
+	.wb_element_designer-photo {
+		display: none;
+	}
+	.wb_stl_designer-quote {
+		right: 0;
+		width: 100%;
+	}
+	footer {
+		padding: 10px 15px 0 15px;
+	}
+	.wb_stl_footer {
+		background: url(../img/copyright-small.svg) no-repeat;
+		background-size: 162px;
+		height: 45px;
+		width: 162px;
+	}
+	.wb_element_social li {
+		margin-right: -5px;
+	}
+}
+
+/********************************************/
+
+/********* Small Devices (.col-sm) *********/
+
+@media (min-width: 576px) {
+	footer {
+		padding: 10px 10px 0 15px;
+	}
+	.wb_stl_footer {
+		background: url(../img/copyright.svg) no-repeat;
+		background-size: 172px;
+		height: 46px;
+		width: 172px;
+	}
+	.wb_element_social li {
+		margin-right: 5px;
+	}
+}
+
+/********************************************/
+
+/********* Medium Devices (.col-md) *********/
+
+@media (min-width: 768px) {
+	.wb_element_logo {
+	    left: 130px;
+	}
+	.wb_element_instance li {
+		margin-bottom: 40px;
+	}
+	.btn_outline {
+		margin-bottom: 427px;
+	}
+	.wb_element_designer-photo {
+		background: url(../img/foto-lygia.png) bottom right no-repeat;
+	    background-size: 200px;
+	    height: 345px;
+	    width: 200px;
+	}
+	.wb_stl_designer-quote {
+		right: 220px;
+		width: 55%;
+	}
+	footer {
+		padding: 10px 130px 0;
+	}
+}
+
+/********************************************/
+
+/********* Large Devices (.col-lg) *********/
+
+@media (min-width: 992px) {
+	.btn_outline {
+		margin-bottom: 405px;	
+	}
+	.wb_element_designer-photo {
+	    background-size: 252px;	    
+	    height: 427px;
+	    width: 252px;
+	}
+	.wb_stl_designer-quote {
+		right: 270px;
+		width: 61.3%;
+	}
+}
+
+/********************************************/
+
+/********* Extra-large Devices (.col-xl) *********/
+
+@media (min-width: 1200px) {
+	.btn_outline {
+		margin-bottom: 383px;	
+	}
+	.wb_stl_designer-quote {
+		width: 690px;
+	}
+}
+
+/********************************************/
