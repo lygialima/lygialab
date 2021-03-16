@@ -10,9 +10,9 @@ satisfazendo minhas necessidades.
 Primeiramente, iniciei este projeto de site para se tornar possível a apresentação dos meus 
 trabalhos realizados no LGCM (e diversos outros trabalhos pessoais os quais 
 ainda não estão inclusos no site), de maneira que a pessoa possa não só visualizar imagens mas 
-também navegar nos projetos e sistemas dos quais eu desenvolvi o front-end.
+também navegar nos sistemas dos quais eu desenvolvi o front-end.
 
-Há ainda bastante esforço a ser feito neste site.
+Há ainda bastante esforço a ser feito!
 
 Reparem que o propósito deste diretório é apenas apresentar isoladamente os códigos da 
 fachada do site. Aqui não se encontram os códigos-fonte dos sistemas do LGCM, 
