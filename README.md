@@ -1,4 +1,4 @@
-# Portfólio Pessoal
+# Portfólio de Sistemas
 
 Este projeto se trata do meu portfólio https://www.lygialab.com/, mais especificamente do
 HTML/CSS que desenvolvi do zero em cima de um template que havia escolhido no meu servidor 
