@@ -12,8 +12,14 @@ trabalhos realizados no LGCM (e diversos outros trabalhos pessoais os quais
 ainda não estão inclusos no site), de maneira que a pessoa possa não só visualizar imagens mas 
 também navegar nos projetos e sistemas dos quais eu desenvolvi o front-end.
 
-Há ainda bastante esforço a ser feito neste portfólio.
+Há ainda bastante esforço a ser feito neste site.
 
 Reparem que o propósito deste diretório é apenas apresentar isoladamente os códigos da 
 fachada do site. Aqui não se encontram os códigos-fonte dos sistemas do LGCM, 
 por exemplo, para não infringir com as regras internas do laboratório.
+
+##Atualização
+
+Este projeto foi encerrado, em torno de 2 anos após essa escrita.
+Você pode acompanhar meus trabalhos através do Behance: https://www.behance.net/lygiap
+e também solicitar acesso a minha pasta de trabalhos avulsos no Dropbox.
