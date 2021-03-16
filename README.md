@@ -1,4 +1,4 @@
-#Portfólio Pessoal
+# Portfólio Pessoal
 
 Este projeto se trata do meu portfólio https://www.lygialab.com/, mais especificamente do
 HTML/CSS que desenvolvi do zero em cima de um template que havia escolhido no meu servidor 
@@ -18,7 +18,7 @@ Reparem que o propósito deste diretório é apenas apresentar isoladamente os c
 fachada do site. Aqui não se encontram os códigos-fonte dos sistemas do LGCM, 
 por exemplo, para não infringir com as regras internas do laboratório.
 
-##Atualização
+## Atualização
 
 Este projeto foi encerrado, em torno de 2 anos após essa escrita.
 Você pode acompanhar meus trabalhos através do Behance: https://www.behance.net/lygiap
