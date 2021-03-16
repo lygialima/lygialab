@@ -4,13 +4,9 @@ Este projeto se trata do meu portfólio https://www.lygialab.com/, mais especifi
 HTML/CSS que desenvolvi do zero em cima de um template que havia escolhido no meu servidor 
 de hospedagem.
 
-Meu objetivo é tanto praticar front-end quanto tornar meu portfólio mais personalizado,
-satisfazendo minhas necessidades.
-
-Primeiramente, iniciei este projeto de site para se tornar possível a apresentação dos meus 
-trabalhos realizados no LGCM (e diversos outros trabalhos pessoais os quais 
-ainda não estão inclusos no site), de maneira que a pessoa possa não só visualizar imagens mas 
-também navegar nos sistemas dos quais eu desenvolvi o front-end.
+Meu objetivo é apresentar os sistemas que ajudei a desenvolver, na época em que trabalhava no 
+LGCM (InCor), bem como outros trabalhos realizados. A pessoa deve ser capaz de acessar e navegar
+dentro desses sistemas e visualizar outros trabalhos meus.
 
 Há ainda bastante esforço a ser feito!
 
