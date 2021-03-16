@@ -6,7 +6,7 @@ de hospedagem.
 
 Meu objetivo é apresentar os sistemas que ajudei a desenvolver, na época em que trabalhava no 
 LGCM (InCor), bem como outros trabalhos realizados. A pessoa deve ser capaz de acessar e navegar
-dentro desses sistemas e visualizar meus outros trabalhos, de outras categorias de projetos. 
+dentro desses sistemas, assim como visualizar meus outros trabalhos, de outras categorias de projetos. 
 
 Há ainda bastante esforço a ser feito!
 
